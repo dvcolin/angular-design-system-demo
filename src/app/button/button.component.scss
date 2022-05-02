@@ -1,0 +1,29 @@
+.button {
+  padding: var(--space-6) var(--space-8);
+  font-family: inherit;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 100ms linear;
+  line-height: var(--line-height-none);
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: white;
+
+  &:hover {
+    background-color: var(--color-primary--light);
+  }
+}
+
+.secondary {
+  background-color: var(--color-secondary-button-bg);
+  color: var(--color-primary);
+
+  &:hover {
+    background-color: var(--color-secondary-button-bg--hover);
+  }
+}

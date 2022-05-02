@@ -1,0 +1,32 @@
+%heading {
+  color: var(--color-heading);
+  font-weight: var(--font-weight-bold);
+
+  &:lang(zh-Hans) {
+    color: orange;
+  }
+}
+
+.h1 {
+  @extend %heading;
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+}
+
+.h2 {
+  @extend %heading;
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+}
+
+.h3 {
+  @extend %heading;
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+}
+
+.h4 {
+  @extend %heading;
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+}
